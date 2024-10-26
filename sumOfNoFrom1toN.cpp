@@ -12,13 +12,11 @@ int sumOfNumbers() {
     {
         sum = sum + i;
     }
-
+    cout << "sum of number from 1 to " << num << " is : ";
     return sum;
     
 }
 
 int main() {
-    int sum = sumOfNumbers();
-    cout << sum;
-
+    cout << sumOfNumbers();
 }
